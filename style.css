@@ -1,0 +1,244 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box !important;
+}
+.active {
+  margin-left: 350px;
+}
+.nav-link {
+  margin-right: 40px;
+}
+.navbar {
+  position: fixed;
+  background-color: #0e458e;
+  z-index: 1;
+}
+.navbar .btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.navbar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+main {
+  padding: 0px !important;
+}
+.second-col {
+  padding: 0 !important;
+}
+.image-box img {
+  height: 595px;
+}
+.first {
+  min-height: auto;
+  background-image: url(one.jpeg);
+  background-size: cover;
+}
+.text-box {
+  position: absolute;
+  top: 30%;
+}
+input {
+  padding: 7px;
+  border: none;
+  width: 40%;
+}
+.second-btn {
+  background-color: rgba(50, 215, 50, 0.919);
+  border: none;
+  padding: 7px;
+  color: rgba(255, 255, 255, 0.873);
+  font-weight: bold;
+  position: absolute;
+}
+.three {
+  min-height: 50vh;
+  background-color: rgba(142, 237, 47, 0.943);
+}
+.three .card img {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  border-radius: 50%;
+}
+.three .card .fa-solid {
+  color: gold;
+}
+.three .card {
+  width: 20rem;
+  padding: 10px;
+}
+.four .card {
+  width: 320px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.four .card img {
+  height: 200px;
+}
+.four {
+  background-color: aliceblue;
+  padding-bottom: 50px;
+}
+.card button {
+  background-color: rgb(115, 224, 5);
+  border: none;
+  color: white;
+}
+.five {
+  min-height: 90vh;
+  background-image: url(bookcases-1869616_1280.jpg);
+  background-size: cover;
+  position: relative;
+}
+.poster {
+  height: 330px;
+  width: 520px;
+  position: absolute;
+  top: 20%;
+  left: 28%;
+}
+.poster img {
+  height: 320px;
+  width: 500px;
+  border: 30px solid rgba(255, 255, 255, 0.896);
+
+  border-radius: 10px;
+}
+.news-btn {
+  padding: 7px;
+  border: 1px solid;
+  color: white;
+  background-color: transparent;
+}
+footer .fa-brands {
+  font-size: xx-large;
+  margin: 1px;
+}
+footer h6 {
+  color: rgba(240, 248, 255, 0.679);
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    position: fixed !important;
+    width: 100% !important;
+  }
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+  .navbar .active {
+    margin-left: 0%;
+    color: red;
+  }
+  .text-box .second-btn {
+    width: 75% !important;
+    display: block;
+  }
+
+  .second {
+    padding: 0 !important;
+    padding-bottom: 40px !important;
+  }
+  .second .card {
+    width: auto !important;
+    margin-top: 2rem;
+  }
+  .three {
+    padding: 0 !important;
+    padding-bottom: 40px !important;
+  }
+  .three .card {
+    margin-top: 2rem;
+  }
+
+  .navbar .navbar-brand img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .text-box {
+    position: absolute !important;
+    top: 80% !important;
+    padding: 10px !important;
+  }
+  form .form {
+    padding-top: 0 !important;
+  }
+
+  .text-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-box h4 {
+    font-size: 1rem;
+  }
+  .second-col {
+    padding: 0 !important;
+  }
+  .text-box input {
+    margin: 0 !important;
+    width: 80% !important;
+  }
+
+  .text-box input,
+  .text-box .second-btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .image-box img {
+    width: 100%;
+  }
+  .second-btn {
+    width: 50%;
+  }
+
+  .three .card img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .three .card {
+    width: 100%;
+  }
+
+  .four .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .four .card img {
+    height: auto;
+    width: 100%;
+  }
+
+  .poster {
+    height: auto;
+    width: auto;
+    top: 10%;
+    left: 0;
+  }
+
+  .poster img {
+    height: auto;
+    width: 100%;
+    border-width: 10px;
+  }
+
+  .newsletter form {
+    text-align: center;
+  }
+
+  .newsletter form input,
+  .newsletter form .news-btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
